@@ -1,4 +1,5 @@
 ## A nushell-based fzf dmenu-like setup for the River compositor &amp; Wezterm
+![fzf menu](https://raw.githubusercontent.com/PacificBird/fzfmenu-nushell-river/master/fzfmenu.png)
 A simple and clean runner menu using only the software you already have installed! You'll need `fzf`, `river`, `wezterm`, `nushell`, and `dex` for starting desktop files.
 
 I have included some comments in the files marking what you should customize.
