@@ -1,0 +1,7 @@
+# runner menu
+# create rule that any windows named 'float_term' will float
+riverctl rule-add -app-id 'float_term' float
+# create rule that any windows named 'float_term' will have these nice golden rectangle dimensions
+riverctl rule-add -app-id 'float_term' dimensions 500 309
+# change `Alt D` to your preferred keybind and change `izzym` to your user.
+riverctl map normal Alt D spawn "wezterm --config-file /home/izzym/.config/nushell/fzfmenu_wezconfig.lua start --class float_term -- nu -c 'source /home/izzym/.config/nushell/fzfmenu.nu'"
